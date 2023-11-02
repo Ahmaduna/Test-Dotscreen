@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Connect 4 Game</title>
+</head>
+<body>
+    <h1>Connect 4 Game</h1>
+    <div class="game-container">
+        <div class="game-info">
+            <div id="player-indicator" class="player-indicator">
+                <div class="arrow"></div>
+                <div class="player-text">Player 1's turn</div>
+            </div>
+            <div class="player">
+                <div class="player-icon red"></div>
+                <div class="player-name">Player 1</div>
+            </div>
+            <div class="player">
+                <div class="player-icon yellow"></div>
+                <div class="player-name">Player 2</div>
+            </div>
+        </div>
+        <div id="board" class="board">
+            <!-- The board will be generated dynamically using JavaScript -->
+        </div>
+    </div>
+    <button id="restart" class="restart" onclick="restartGame()">Restart Game</button>
+    <script src="script.js"></script>
+</body>
+</html>
